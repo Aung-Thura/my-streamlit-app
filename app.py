@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-DATA_PATH = "./data/Resale data.csv"
+DATA_PATH = "./data/Resale_data.csv"
 df = pd.read_csv(DATA_PATH)
 # Lesson assumption:
 # this dataset has already gone through EDA and basic cleaning.
